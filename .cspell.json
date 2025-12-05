@@ -1,0 +1,16 @@
+{
+  "version": "0.2",
+  "language": "en,pt",
+  "dictionaries": ["pt-br"],
+  "ignoreRegExpList": ["/[A-Za-záéíóúãõâêîôûç]+/g"],
+  "dictionaryDefinitions": [
+    {
+      "name": "pt-br",
+      "path": "node_modules/@cspell/dict-pt-br/cspell-ext.json"
+    },
+    {
+      "name": "pt-pt",
+      "path": "node_modules/@cspell/dict-pt-pt/cspell-ext.json"
+    }
+  ]
+}
