@@ -2,7 +2,7 @@
 
 A modern Next.js application template with **Mantine UI**, **Jest testing**, and **Storybook** component documentation. Built with a scalable clean architecture.
 
-## 🎯 Overview
+## Overview
 
 This starter template provides a production-ready setup for building web applications with:
 - **Next.js** - React framework for server-side rendering
@@ -11,7 +11,7 @@ This starter template provides a production-ready setup for building web applica
 - **Storybook** - Interactive component documentation
 - **Clean Architecture** - Organized code structure for scalability
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **JavaScript** (81.7%) - Core application logic
 - **TypeScript** (15.1%) - Type safety and better DX
@@ -21,33 +21,33 @@ This starter template provides a production-ready setup for building web applica
 - **Jest** - Testing framework
 - **Storybook** - Component showcase
 
-## 🚀 Features
+## Features
 
-✅ **Next.js Setup**
+ **Next.js Setup**
 - Server-side rendering (SSR)
 - Static site generation (SSG)
 - API routes
 - File-based routing
 
-✅ **Mantine UI Components**
+ **Mantine UI Components**
 - Pre-built accessible components
 - Dark mode support
 - Responsive design
 - Customizable themes
 
-✅ **Testing**
+ **Testing**
 - Jest configuration
 - Unit tests
 - Component testing
 - Test utilities
 
-✅ **Storybook**
+ **Storybook**
 - Interactive component library
 - Live documentation
 - Component showcase
 - Accessibility testing
 
-## 🛠️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 16+
@@ -113,7 +113,7 @@ stories/               # Storybook stories
 __tests__/             # Test files
 ```
 
-## 💡 Architecture
+##  Architecture
 
 This project follows **Clean Architecture** principles:
 
@@ -124,21 +124,21 @@ This project follows **Clean Architecture** principles:
 - **State Management** (`store/`) - Global state
 - **Validation** (`validation/`) - Data validation rules
 
-## 📝 Development Guidelines
+##  Development Guidelines
 
 - Components should be documented in Storybook
 - Write tests for business logic and components
 - Use TypeScript for better type safety
 - Follow Mantine's component API conventions
 
-## 📚 Resources
+##  Resources
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Mantine Documentation](https://mantine.dev)
 - [Jest Documentation](https://jestjs.io)
 - [Storybook Documentation](https://storybook.js.org)
 
-## 📄 License
+##  License
 
 MIT License - See LICENSE file for details
 
