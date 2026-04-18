@@ -1,37 +1,62 @@
-# Mantine Next.js template
+# Frontend Architecture with Next.js and Mantine
 
-This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
-If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).
+## Tech Stack
 
-## Features
+* Next.js — https://nextjs.org/
+* Mantine — https://mantine.dev/
+* TypeScript — https://www.typescriptlang.org/
+* Storybook — https://storybook.js.org/
+* Jest — https://jestjs.io/
+* React Testing Library — https://testing-library.com/
 
-This template comes with the following features:
+---
 
-- [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Storybook](https://storybook.js.org/)
-- [Jest](https://jestjs.io/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+## Overview
 
-## npm scripts
+This project is a frontend application built with Next.js and Mantine, focusing on scalability, code organization, and maintainability.
 
-### Build and dev scripts
+The goal is to provide a solid foundation for building modern web applications, with attention to performance, reusability, and developer experience.
 
-- `dev` – start dev server
-- `build` – bundle application for production
-- `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+## Technical Decisions
 
-### Testing scripts
+**Next.js (App Router)**
+Used for its performance optimizations, server-side features, and flexible routing system.
 
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
-- `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
+**Mantine**
+Chosen for its component library and straightforward theming, which helps maintain UI consistency.
 
-### Other scripts
+**TypeScript**
+Improves code reliability by enforcing types and reducing runtime errors.
 
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+**Storybook**
+Used to develop and document components in isolation.
+
+**Jest + React Testing Library**
+Provides a testing setup for validating components and application logic.
+
+## Code Quality
+
+The project includes a set of tools to maintain code quality and consistency:
+
+* ESLint for linting
+* Prettier for formatting
+* Type checking with TypeScript
+* Automated test execution
+
+## Scripts
+
+```bash
+npm run dev        # start development server
+npm run build      # production build
+npm run analyze    # analyze bundle size
+npm run lint       # run linter
+npm run typecheck  # check types
+npm run test       # run all checks
+```
+
+## What this project demonstrates
+
+* Structured and scalable frontend architecture
+* Reusable component patterns
+* Clean and maintainable code practices
+* Integration of testing and code quality tools
