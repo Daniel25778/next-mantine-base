@@ -1,62 +1,147 @@
-# Frontend Architecture with Next.js and Mantine
+# Next.js Mantine Starter
 
-## Tech Stack
+A modern Next.js application template with **Mantine UI**, **Jest testing**, and **Storybook** component documentation. Built with a scalable clean architecture.
 
-* Next.js — https://nextjs.org/
-* Mantine — https://mantine.dev/
-* TypeScript — https://www.typescriptlang.org/
-* Storybook — https://storybook.js.org/
-* Jest — https://jestjs.io/
-* React Testing Library — https://testing-library.com/
+## 🎯 Overview
+
+This starter template provides a production-ready setup for building web applications with:
+- **Next.js** - React framework for server-side rendering
+- **Mantine** - Comprehensive React components library
+- **Jest** - Unit and integration testing
+- **Storybook** - Interactive component documentation
+- **Clean Architecture** - Organized code structure for scalability
+
+## 📦 Tech Stack
+
+- **JavaScript** (81.7%) - Core application logic
+- **TypeScript** (15.1%) - Type safety and better DX
+- **CSS** (3.2%) - Styling with Mantine components
+- **Next.js** - React framework
+- **Mantine UI** - Component library
+- **Jest** - Testing framework
+- **Storybook** - Component showcase
+
+## 🚀 Features
+
+✅ **Next.js Setup**
+- Server-side rendering (SSR)
+- Static site generation (SSG)
+- API routes
+- File-based routing
+
+✅ **Mantine UI Components**
+- Pre-built accessible components
+- Dark mode support
+- Responsive design
+- Customizable themes
+
+✅ **Testing**
+- Jest configuration
+- Unit tests
+- Component testing
+- Test utilities
+
+✅ **Storybook**
+- Interactive component library
+- Live documentation
+- Component showcase
+- Accessibility testing
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Node.js 16+
+- npm or yarn
+
+### Installation
+
+```bash
+npm install
+# ou
+yarn install
+```
+
+### Running the Development Server
+
+```bash
+npm run dev
+# ou
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Running Storybook
+
+```bash
+npm run storybook
+```
+
+Storybook will start on [http://localhost:6006](http://localhost:6006)
+
+### Running Tests
+
+```bash
+npm run test
+# Watch mode
+npm run test:watch
+```
+
+### Building for Production
+
+```bash
+npm run build
+npm run start
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── data/              # Data models and types
+├── domain/            # Business logic and domain models
+├── infra/             # External services and integrations
+├── main/              # App configuration and setup
+├── presentation/      # Pages, components, and UI logic
+├── store/             # State management (Redux, Zustand, etc.)
+└── validation/
+    └── schema/        # Validation schemas (Zod, Yup, etc.)
+
+pages/                 # Next.js pages
+public/                # Static assets
+stories/               # Storybook stories
+__tests__/             # Test files
+```
+
+## 💡 Architecture
+
+This project follows **Clean Architecture** principles:
+
+- **Data Layer** (`data/`) - Data models and API contracts
+- **Domain Layer** (`domain/`) - Business rules and entities
+- **Infrastructure Layer** (`infra/`) - External service clients
+- **Presentation Layer** (`presentation/`) - UI components and pages
+- **State Management** (`store/`) - Global state
+- **Validation** (`validation/`) - Data validation rules
+
+## 📝 Development Guidelines
+
+- Components should be documented in Storybook
+- Write tests for business logic and components
+- Use TypeScript for better type safety
+- Follow Mantine's component API conventions
+
+## 📚 Resources
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Mantine Documentation](https://mantine.dev)
+- [Jest Documentation](https://jestjs.io)
+- [Storybook Documentation](https://storybook.js.org)
+
+## 📄 License
+
+MIT License - See LICENSE file for details
 
 ---
 
-## Overview
-
-This project is a frontend application built with Next.js and Mantine, focusing on scalability, code organization, and maintainability.
-
-The goal is to provide a solid foundation for building modern web applications, with attention to performance, reusability, and developer experience.
-
-## Technical Decisions
-
-**Next.js (App Router)**
-Used for its performance optimizations, server-side features, and flexible routing system.
-
-**Mantine**
-Chosen for its component library and straightforward theming, which helps maintain UI consistency.
-
-**TypeScript**
-Improves code reliability by enforcing types and reducing runtime errors.
-
-**Storybook**
-Used to develop and document components in isolation.
-
-**Jest + React Testing Library**
-Provides a testing setup for validating components and application logic.
-
-## Code Quality
-
-The project includes a set of tools to maintain code quality and consistency:
-
-* ESLint for linting
-* Prettier for formatting
-* Type checking with TypeScript
-* Automated test execution
-
-## Scripts
-
-```bash
-npm run dev        # start development server
-npm run build      # production build
-npm run analyze    # analyze bundle size
-npm run lint       # run linter
-npm run typecheck  # check types
-npm run test       # run all checks
-```
-
-## What this project demonstrates
-
-* Structured and scalable frontend architecture
-* Reusable component patterns
-* Clean and maintainable code practices
-* Integration of testing and code quality tools
+**Last Updated**: April 2026
